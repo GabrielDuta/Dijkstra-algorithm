@@ -1,0 +1,24 @@
+Algoritmo di Dijkstra con gestione dinamica della rete
+
+Descrizione progetto: questo progetto mette in pratica l'algoritmo di Dijkstra
+per costruire una tabella di instradamento per router selezionati dall'utente.
+Le connessioni tra router possono essere prese da file o inserite (e rimosse)
+a mano dall'utente.
+Ho voluto rendere questo programma abbastanza dinamico quindi si possono inserire
+anche più file che rappresentino la topologia di rete, le connessioni possono
+essere aggiunte e rimosse a piacere e si può vedere la tabella di ogni router
+presente nella rete, per questo la tabella viene creata sul momento.
+
+La struttura del file deve essere la seguente:
+Router-A;Router-B;costoLink // Rappresenta una connessione
+Router-A;Router-C;costoLink // Rappresenta un'altra connessione
+
+Le connessioni possono essere inserite anche solo una volta, cioè basta mettere:
+<A;B;3> non serve anche <B;A;3>
+
+Avvio: per far partire il programma avviarlo, inserire una scelta dal menu, prima di
+tutto va creata almeno una connessione, e poi seguire le istruzioni.
+
+Problemi: il controllo dell'input non è ancora ottimale e se quando si vuole
+inserire un nuovo file il programma non controlla se il file esiste nella cartella
+perchè non so come controllarlo sia su Linux che su Windows.Autore: Gabriel Duta
