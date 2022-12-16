@@ -1,4 +1,4 @@
-Algoritmo di Dijkstra con gestione dinamica della rete
+Algoritmo di Dijkstra con gestione dinamica del grafo
 
 Descrizione progetto: questo progetto mette in pratica l'algoritmo di Dijkstra
 per costruire una tabella di instradamento per router selezionati dall'utente.
@@ -19,6 +19,4 @@ Le connessioni possono essere inserite anche solo una volta, cioè basta mettere
 Avvio: per far partire il programma avviarlo, inserire una scelta dal menu, prima di
 tutto va creata almeno una connessione, e poi seguire le istruzioni.
 
-Problemi: il controllo dell'input non è ancora ottimale e se quando si vuole
-inserire un nuovo file il programma non controlla se il file esiste nella cartella
-perchè non so come controllarlo sia su Linux che su Windows.Autore: Gabriel Duta
+Autore: Gabriel Duta
